@@ -31,3 +31,9 @@ int main(){
                 cin >> lebar;
                 cout << "Luas persegi panjang = " << luasPersegiPanjang(panjang, lebar) << endl;
                 break;}
+                case 2:
+                cout << "Hitung luas lingkaran" << endl;
+                cout << "Masukkan jari-jari = ";
+                cin >> jariJari;
+                cout << "Luas lingkaran = " << luasLingkaran(jariJari) << endl;
+                break;
