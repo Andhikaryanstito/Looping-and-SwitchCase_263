@@ -20,7 +20,7 @@ int main(){
         cout << "3. Keluar" << endl;
 
         cout << "Pilihan (1/2/3) = ";
-        cin >> pilihan;}
+        cin >> pilihan;
         switch (pilihan)
         {
             case 1:
@@ -30,10 +30,18 @@ int main(){
                 cout << "Masukkan lebar = ";
                 cin >> lebar;
                 cout << "Luas persegi panjang = " << luasPersegiPanjang(panjang, lebar) << endl;
-                break;}
+                break;
                 case 2:
                 cout << "Hitung luas lingkaran" << endl;
                 cout << "Masukkan jari-jari = ";
                 cin >> jariJari;
                 cout << "Luas lingkaran = " << luasLingkaran(jariJari) << endl;
                 break;
+                     case 3:
+                break;
+            default:
+                cout << "Pilihan salah, pilihan harus di antara 1-3." << endl;
+                break;
+        }
+    } while (pilihan != 3);
+}
